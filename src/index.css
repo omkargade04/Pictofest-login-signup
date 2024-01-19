@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-img{
+  background-size: cover;
+  background-image: url("./retro.png");
+}
