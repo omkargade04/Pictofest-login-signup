@@ -34,14 +34,14 @@ const Register = () => {
           </h1>
           <input
             className="w-full h-10 sm:h-12 p-3 mb-4 rounded outline-none placeholder-slate-500"
-            type="email"
+            type="firstName"
             placeholder="First Name"
             value={firstName}
             onChange={(e) => setFirstName(e.target.value)}
           />
           <input
             className="w-full h-10 sm:h-12 p-3 mb-4 rounded outline-none placeholder-slate-500"
-            type="password"
+            type="lastName"
             placeholder="Last Name"
             value={lastName}
             onChange={(e) => setLastName(e.target.value)}
@@ -55,14 +55,14 @@ const Register = () => {
           />
           <input
             className="w-full h-10 sm:h-12 p-3 mb-4 rounded outline-none placeholder-slate-500"
-            type="email"
+            type="phone"
             placeholder="Phone No."
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
           />
           <input
             className="w-full h-10 sm:h-12 p-3 mb-4 rounded outline-none placeholder-slate-500"
-            type="email"
+            type="password"
             placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
@@ -78,7 +78,7 @@ const Register = () => {
           {(collegeType === name) && 
           <input
             className="w-full h-10 sm:h-12 p-3 mb-4 rounded outline-none placeholder-slate-500"
-            type="email"
+            type="collegeName"
             placeholder="College Name"
             value={collegeName}
             onChange={(e) => setCollegeName(e.target.value)}
